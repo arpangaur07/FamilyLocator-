@@ -1,0 +1,12 @@
+{
+  "rules": {
+    ".read": false,
+    ".write": false,
+    "families": {
+      "$code": {
+        ".read": "auth != null && $code.length == 10",
+        ".write": "auth != null && $code.length == 10"
+      }
+    }
+  }
+}
